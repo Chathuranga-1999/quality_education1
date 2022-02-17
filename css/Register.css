@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -7,9 +16,6 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
-
-
-
 
 .navbar-custom {
     background: linear-gradient(180deg, #9796F0 0%, rgba(151, 150, 240, 0) 100%);
@@ -22,16 +28,13 @@ body {
   background: #FFFFFF;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   border-radius: 66.5px;
-
   padding: 5px 15px 5px 15px;
-
   font-family: 'Rhodium Libre', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 31px;
   text-align: center;
-
   color: #000000;
 }
 
@@ -61,4 +64,143 @@ body {
     background-color:#081878;
     outline: none;
     box-shadow: 0 0 30px #081878;
+}
+
+.wrapper{
+  max-width: 500px;
+  width: 100%;
+  background: rgba(93, 195, 122, 0.15);
+  margin: 100px auto;
+  padding-bottom: 60px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  border-radius: 47px;
+  position: center;
+}
+
+.wrapper .title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapper .form{
+  width: 100%;
+}
+
+.wrapper .form .inputfield{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .form .inputfield label{
+   font-family: 'Montserrat', sans-serif;
+   width: 200px;
+   color: #000000;
+   margin-right: 10px;
+   font-size: 14px;
+}
+
+.wrapper .form .inputfield .input {
+  background: rgba(196, 196, 196, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 8px 10px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .form .inputfield .custom_select{
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.wrapper .form .inputfield .custom_select:before{
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent;
+  pointer-events: none;
+}
+
+.wrapper .form .inputfield .custom_select select{
+  background: rgba(196, 196, 196, 0.5);
+  -webkit-appearance: none;
+  -moz-appearance:   none;
+  appearance:        none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 1px solid #d5dbd9;
+  border-radius: 20px;
+}
+
+.wrapper .form .inputfield .input:focus,
+.wrapper .form .inputfield .custom_select select:focus{
+  border: 1px solid #040D3D;
+}
+
+.wrapper .form .inputfield p{
+   font-size: 14px;
+   color: #757575;
+}
+
+.wrapper .form .inputfield .btn{
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  border-radius: 25px;
+  background: rgba(196, 196, 196, 0.5);
+  color: black;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.wrapper .form .inputfield .btn:hover{
+  background:  #b3b3b3;
+}
+
+.wrapper .form .inputfield:last-child{
+  margin-bottom: 0;
+}
+
+
+@media (max-width:420px) {
+  .wrapper .form .inputfield{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper .form .inputfield label{
+    margin-bottom: 5px;
+  }
+  .wrapper .form .inputfield.terms{
+    flex-direction: row;
+  }
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #040D3D;
+  text-align: center;
 }
