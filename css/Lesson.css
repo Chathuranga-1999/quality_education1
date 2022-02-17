@@ -1,0 +1,267 @@
+body{
+	background-image: url("../img/bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	webkit-box-direction: normal!important;
+}
+/*_____________background*/
+#content{
+	position: absolute;
+	width: 100%;
+	height:400%;
+	left: 0px;
+	top: 87.5px;
+	background: linear-gradient(180deg, rgba(251, 199, 212, 0.61) 0.36%, #9796F0 100.36%);
+}
+p{
+	text-align: justify;
+	font-family: Arsenal;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+	margin-top: 5%;
+
+color: #000000;
+}
+/*___________subject names*/
+h2{
+	font-family: Sahitya;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	
+	text-align: center;
+	color: #000000;
+}
+
+.div1{
+	left: 300;
+	top: -300%;
+	width: 200;
+	height: 200;
+	
+}
+/*______circle*/
+.d1{
+	border-radius: 50%;
+	background: linear-gradient(81.12deg, rgba(151, 150, 240, 0.47) 38.1%, rgba(255, 255, 255, 0) 90.17%);
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	transform: rotate(15.81deg);
+	position: absolute;
+	width: 340.52px;
+	height: 340.52px;
+	top:-7%;
+	left: -9%;
+}
+img.p1{
+	margin-top: 3%;
+	margin-left: 3%;
+
+}
+img.p2{
+	margin-top: 3%;
+	margin-left: -2%;
+
+}
+.bg{
+	margin-left: 30%;
+	margin-top: 3%;
+}
+/*______________subject rule*/
+.rule{
+	display: block;
+	background: linear-gradient(260.05deg, rgba(151, 150, 240, 0.2) 49.53%, #AEBAFB 80.18%);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 66.5px;
+	width: 95%;
+	height: 18%;
+	text-align: center;
+}
+/*_______________button custom*/
+
+.btn_cus {
+  margin: 5px 10px;
+  border:0px;
+  
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 66.5px;
+
+  padding: 5px 15px 5px 15px;
+
+  font-family: Rhodium Libre;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #000000;
+  background: linear-gradient(89.52deg, rgba(151, 150, 240, 0.7) -35.45%, rgba(248, 248, 248, 0.7) 102.05%);
+  
+ 
+}
+
+.btn_cus:hover {
+  background-color: red;
+  color:white;
+  transform: scale(1.5);
+}
+
+/*_____________button LEFT*/
+
+}
+ul.bt{
+	padding-top:40;
+	padding-left:10%;
+}
+ul li.btn{
+	display:inline;
+	
+	font-sze:25;
+	padding:3 10 4 20;
+		
+}
+/*_____________button RIGHT*/
+.btr{
+	padding-top:40;
+	padding-left:40%;
+}
+
+/*____________subject 1*/
+.di1{
+	position: absolute;
+width: 1095px;
+height: 319px;
+left: 126px;
+top: 50%;
+
+
+}
+.s1{
+	background: linear-gradient(119.38deg, #9796F0 0%, #FBC7D4 98.66%);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 61px;
+	width: 242px;
+	height: 233px;
+	margin-left: 75%;
+	margin-top: -5%;
+}
+/*____________subject icon*/
+.pi1{
+	width: auto;
+	height: auto;
+	padding-top: 20%;
+
+	position: relative;
+}
+/*____________subject 2*/
+.di2{
+	position: absolute;
+width: 1095px;
+height: 319px;
+left: 126px;
+top: 110%;
+
+}
+.s2{
+	
+	background: linear-gradient(119.38deg, #9796F0 0%, #FBC7D4 98.66%);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 61px;
+	width: 242px;
+	height: 233px;
+	margin-left:3% ;
+	margin-top: -5%;
+}
+.pi2{
+	width: auto;
+	height: auto;
+	padding-top: 20%;
+
+	position: relative;
+}
+p.space{
+	margin-left: 30%;
+	
+}
+/*____________subject 3*/
+.di3{
+	position: absolute;
+width: 1095px;
+height: 319px;
+left: 126px;
+top: 170%;
+
+}
+.s3{
+	background: linear-gradient(119.38deg, #9796F0 0%, #FBC7D4 98.66%);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 61px;
+	width: 242px;
+	height: 233px;
+	margin-left: 75%;
+	margin-top: -5%;
+}
+.pi3{
+	width: auto;
+	height: auto;
+	padding-top: 20%;
+
+	position: relative;
+}
+/*____________subject 4*/
+.di4{
+	position: absolute;
+width: 1095px;
+height: 319px;
+left: 126px;
+top: 238%;
+
+}
+.s4{
+	
+	background: linear-gradient(119.38deg, #9796F0 0%, #FBC7D4 98.66%);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 61px;
+	width: 242px;
+	height: 233px;
+	margin-left:3% ;
+	margin-top: -5%;
+}
+.pi4{
+	width: auto;
+	height: auto;
+	padding-top: 20%;
+
+	position: relative;
+}
+
+/*____________subject 5*/
+.di5{
+	position: absolute;
+width: 1095px;
+height: 319px;
+left: 126px;
+top: 305%;
+
+}
+.s5{
+	background: linear-gradient(119.38deg, #9796F0 0%, #FBC7D4 98.66%);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 61px;
+	width: 242px;
+	height: 233px;
+	margin-left: 75%;
+	margin-top: -5%;
+}
+.pi5{
+	width: auto;
+	height: auto;
+	padding-top: 20%;
+
+	position: relative;
+}
+
+
