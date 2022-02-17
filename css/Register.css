@@ -1,3 +1,10 @@
+body {
+  background: url(../img/Background.jpg);
+}
+
+
+
+
 .navbar-custom {
     background: linear-gradient(180deg, #9796F0 0%, rgba(151, 150, 240, 0) 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -41,4 +48,11 @@
   line-height: 58px;
 
   color: black;
+}
+
+.press{
+    color: white;
+    background-color:#081878;
+    outline: none;
+    box-shadow: 0 0 30px #081878;
 }
