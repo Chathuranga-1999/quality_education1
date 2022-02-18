@@ -120,3 +120,59 @@ body {
   padding: 8px 10px;
   transition: all 0.3s ease;
 }
+
+
+.wrapper .form .inputfield .input:focus {
+  border: 1px solid #040D3D;
+}
+
+.wrapper .form .inputfield p{
+   font-size: 14px;
+   color: #757575;
+}
+
+.wrapper .form .inputfield .btn{
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  border-radius: 25px;
+  background: rgba(196, 196, 196, 0.5);
+  color: black;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.wrapper .form .inputfield .btn:hover{
+  background:  #b3b3b3;
+}
+
+.wrapper .form .inputfield:last-child{
+  margin-bottom: 0;
+}
+
+
+@media (max-width:420px) {
+  .wrapper .form .inputfield{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper .form .inputfield label{
+    margin-bottom: 5px;
+  }
+  .wrapper .form .inputfield.terms{
+    flex-direction: row;
+  }
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #040D3D;
+  text-align: center;
+}
