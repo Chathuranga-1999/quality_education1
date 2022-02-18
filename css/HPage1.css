@@ -3,31 +3,42 @@
     padding: 0;
 }
 
+.par {
+    width: 90%;
+    height: 0%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    background: rgba(252, 252, 252, 0.2);
+    font-size: 100%;
+    padding-top: 2%;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 5%;
+}
+
+.par:hover {
+    height: 40%;
+    transition: 0.5s;
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px 5px rgba(247, 247, 247, 0.5);
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+    padding-top: 5%;
+}
+
 body {
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
     align-items: center;
     flex-wrap: wrap;
-    background: linear-gradient(180deg, #FBC7D4 0%, #9796F0 100%);
+    background: linear-gradient(360deg, #0029FF -35.69%, rgba(132, 152, 255, 0) 141.89%);
     min-height: 100vh;
+    background-size: cover;
 }
-
-
-/* section {
-    position: relative;
-}
-
-section ::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(81.12deg, rgba(151, 150, 240, 0.47) 38.1%, rgba(255, 255, 255, 0) 90.17%);
-    box-shadow: 0px 0px 10px #000000;
-    clip-path: circle(20% at 10% 10%);
-} */
 
 .container {
     position: relative;
@@ -43,24 +54,142 @@ section ::before {
     position: relative;
     width: 300px;
     height: 400px;
-    background: rgba(255, 255, 255, 0.05);
     margin: 20px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 15px 35px rgba(230, 230, 230, 0.5); */
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-.imgBx {
-    border-radius: 100px;
+
+/* image size */
+
+.pSize {
+    width: 70%;
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 .content {
-    background: white;
+    background-size: cover;
     width: 300px;
     height: 400px;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px 5px rgba(255, 255, 255, 1.5);
     border-radius: 4%;
 }
+
+
+/* topic lesson */
+
+.lesson {
+    /* letter-spacing: 3px; */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 7%;
+    height: 7.5%;
+}
+
+
+/* topic ask question */
+
+.ask {
+    color: aliceblue;
+    /* letter-spacing: 3px; */
+    padding-left: 5%;
+    margin-top: 7%;
+    width: 100%;
+    /* word-spacing: 20px; */
+}
+
+
+/* topic ask question */
+
+.test {
+    color: aliceblue;
+    /* letter-spacing: 3px; */
+    /* padding-top: 10%; */
+    padding-left: 20%;
+    margin-top: 6.5%;
+    height: 8%;
+}
+
+
+/* mouse not drag */
+
+.container .card .content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+
+/* mouse drag */
+
+.container .card:hover .content {
+    opacity: 1;
+    transform: translateY(-20px);
+    box-shadow: 0 15px 35px rgba(173, 13, 13, 0.);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.container .card .contentBx:hover {
+    transform: translateY(-20px);
+    transition: 0.5s;
+    /* opacity: 0; */
+}
+
+.container .card .contentBx:hover .lesson {
+    color: rgb(4, 0, 58);
+    transition: 0.5s;
+    transform: translateY(-1px);
+    font-size: 140%;
+    letter-spacing: 3px;
+}
+
+.container .card .contentBx:hover .ask {
+    color: rgb(4, 0, 58);
+    transition: 0.5s;
+    transform: translateY(-1px);
+    font-size: 140%;
+    margin-left: -5%;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.container .card .contentBx:hover .test {
+    color: rgb(4, 0, 58);
+    transition: 0.5s;
+    transform: translateY(-1px);
+    font-size: 140%;
+    margin-left: -10%;
+    letter-spacing: 3px;
+}
+
+
+/* .container .card .contentBx .paragraf {
+    opacity: 0;
+}
+
+.container .card .contentBx .paragraf:hover {
+    opacity: 1;
+} */
+
+
+/* p {
+    opacity: 0;
+}
+
+p:hover {
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(-20px);
+} */
