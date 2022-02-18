@@ -1,0 +1,15 @@
+body{
+	background-color: black;
+}
+
+h2{
+	font-family: Geo;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 80px;
+	color: white;
+}
+.bx{
+	margin-top: 10%;
+}
