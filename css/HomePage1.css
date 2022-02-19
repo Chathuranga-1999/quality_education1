@@ -7,11 +7,28 @@
     font-size: 25px;
 }
 
+.typerrow {
+    padding-top: 120px;
+}
 
-/* 
-.tsize {
-    margin-top: 100px;
-} */
+.Typeunder {
+    padding-left: 50px;
+}
+
+.ButtonAct {
+    padding-top: 80px;
+}
+
+.typingT {
+    font-size: 40px;
+    /* margin-left: -50px; */
+    color: #ffffff;
+}
+
+.smallParagraph {
+    padding-left: 00px;
+    /* margin-top: 100px; */
+}
 
 .HomeLogo {
     margin-left: 0px;
@@ -35,6 +52,7 @@
     font-family: 'Bebas Neue';
     margin-left: 0%;
     color: #ffffff;
+    margin-top: -30px;
 }
 
 header {
@@ -42,71 +60,10 @@ header {
     height: 100vh;
     background-repeat: no-repeat;
     width: 100%;
-    background-image: url(../img/oo.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/oo.jpg);
     background-position: center;
     background-size: cover;
 }
-
-
-/* .logo {
-    position: absolute;
-    width: 3%;
-    height: 85%;
-    left: 30px;
-    top: 5px;
-    background-repeat: no-repeat;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.logo1 {
-    position: absolute;
-    width: 3%;
-    height: 100%;
-    left: 4%;
-    top: 0px;
-    background-repeat: no-repeat;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-} */
-
-
-/* 
-.bbr {
-    width: 100%;
-    height: 100%;
-    background-color: #fefeff;
-} */
-
-
-/* p .text {
-    margin-top: 10px;
-    width: 10px;
-    height: 20px;
-    color: #ffffff;
-} */
-
-
-/* .logophoto {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 0.4%;
-    top: 9%;
-    background: linear-gradient(81.12deg, rgba(242, 180, 123, 0.47) 38.1%, rgba(255, 255, 255, 0) 90.17%);
-    box-shadow: 0px 0px 10px #000000;
-    border-radius: 100%;
-}
-
-.hh {
-    color: #fff;
-    font-size: 35px;
-    font-weight: 900;
-    margin-left: 3.5%;
-} */
-
-
-/* ::selection {
-    background: #132855;
-} */
 
 .bar {
     background: #3D082E;
@@ -138,59 +95,6 @@ header nav {
     font-size: 20px;
     margin-left: 47.5%;
 }
-
-.aa {
-    background-color: #fff;
-    border-radius: 100px;
-    text-align: center;
-    width: 150px;
-    height: 35px;
-    background-size: 10px;
-}
-
-
-/* .aa .aa:hover {
-    transform: scale(0.97);
-    background-color: #f3f3f3;
-    color: #132855;
-} */
-
-
-/* .bb {
-    background-color: rgb(255, 255, 255);
-    border-radius: 100px;
-    text-align: center;
-    width: 150px;
-    height: 35px;
-    background-size: 10px;
-}
-
-.cc {
-    background-color: #fff;
-    border-radius: 100px;
-    text-align: center;
-    width: 150px;
-    height: 35px;
-    background-size: 10px;
-}
-
-.dd {
-    background-color: #fff;
-    border-radius: 100px;
-    text-align: center;
-    width: 150px;
-    height: 35px;
-    background-size: 10px;
-}
-
-.ee {
-    background-color: #fff;
-    border-radius: 100px;
-    text-align: center;
-    width: 150px;
-    height: 35px;
-    background-size: 10px;
-} */
 
 nav .menu {
     display: flex;
@@ -240,26 +144,13 @@ header .text-content .job {
     display: flex;
 }
 
-.circle {
-    border-radius: 100%;
-    position: relative;
-    width: 748.46px;
-    height: 748.46px;
-    left: 795px;
-    top: -250px;
-    background: linear-gradient(81.12deg, rgba(242, 180, 123, 0.47) 38.1%, rgba(255, 255, 255, 0) 90.17%);
-    transform: rotate(150.81deg);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    box-shadow: 0px 0px 2px #000000;
-}
-
 .text-content .typing-text {
     margin-left: 10px;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 5px solid #1be8f7;
+    border-right: 5px solid #00ffff;
     font-weight: 500;
-    animation: typing 6s steps(50) infinite;
+    animation: typing 5s steps(53) infinite;
 }
 
 @keyframes typing {
@@ -267,7 +158,7 @@ header .text-content .job {
         width: 0ch;
     }
     50% {
-        width: 50ch;
+        width: 53ch;
     }
     100% {
         width: 0ch;
@@ -291,7 +182,7 @@ header .text-content .job {
 }
 
 .buttons {
-    margin: 20px 0 0 0;
+    margin: -100px 0 0 0;
     /* background-color: #fafafa; */
 }
 
