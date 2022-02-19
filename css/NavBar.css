@@ -42,3 +42,10 @@
 
   color: black;
 }
+
+.press{
+    color: white;
+    background-color:#081878;
+    outline: none;
+    box-shadow: 0 0 30px #081878;
+}
