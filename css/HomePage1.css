@@ -6,6 +6,11 @@
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
 }
+.HomeLogo{
+    margin-top: -15px;
+    width: 130px;
+    height: 130px;
+}
 
 .typerrow {
     padding-top: 120px;
