@@ -9,7 +9,20 @@
 .Bttn {
     margin-left: 60%;
 }
+/* nav-Button */
 
+.NBton {
+    margin-top: -62px;
+    margin-left: 85%;
+}
+
+
+
+.SC {
+    color: aliceblue;
+    font-size: 45px;
+    margin-left: 20px;
+}
 
 /* Lesson Name */
 
