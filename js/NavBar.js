@@ -10,7 +10,7 @@ function btn_click(e) {
 
   		switch(element) {
   			case Home:
-    			window.location='Home.html';
+    			window.location='index.html';
     		break;
   			
   			case Service:
@@ -22,7 +22,7 @@ function btn_click(e) {
     		break;
 
     		case Log_In:
-    			window.location='Log_In.html';
+    			window.location='Log_iIn.html';
     		break;
 
     		case About_us:
