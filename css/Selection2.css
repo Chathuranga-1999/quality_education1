@@ -1,0 +1,46 @@
+.navbar-custom {
+    background: #9C6A00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    left: 0%;
+    width: 100%;
+    padding-top: -42px;
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+.btn_custom {
+    margin: 5px 10px;
+    border: 0px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 66.5px;
+    padding: 5px 15px 5px 15px;
+    font-family: 'Rhodium Libre', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+
+.btn_custom:hover {
+    background-color: #040D3D;
+    color: white;
+}
+
+.custom-active {
+    background-color: #040D3D;
+    color: white;
+    border-color: #040D3D;
+}
+
+.navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+    ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    color: black;
+}
