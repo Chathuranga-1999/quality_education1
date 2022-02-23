@@ -2,9 +2,8 @@
 
 function Home() 
 {
-	// window.parent.open("index.html");
-	// var myWindow =window.open("","","")
-	// myWindow.location.href="Service.html"
+	 window.opener.location("index.html");
+	
 }
 
 function Service()
@@ -15,17 +14,17 @@ function Service()
 
 function Register()
 {
-	Window.location.href="Register.html"
+	Window.opener.location("Register.php");
 }
 
 function Login()
 {
-	Window.location.href="#"
+	Window.opener.location("Log-In.php");
 }
 
 function AboutUs()
 {
 	var myWindow =window.open("","","")
-	myWindow.location.href="#"
+	myWindow.location.href="AboutUs.html"
 }
 
