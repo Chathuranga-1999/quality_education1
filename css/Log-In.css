@@ -16,7 +16,11 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
+h7{
+  position: fixed;
+  left: 700px;
 
+}
 
 .wrapper{
   max-width: 500px;

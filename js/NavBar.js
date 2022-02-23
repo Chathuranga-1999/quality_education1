@@ -1,38 +1,31 @@
-var ul_custom = document.querySelector(".ul_custom");
 
-ul_custom.addEventListener("click", btn_click, false);
 
-function btn_click(e) {
-	if(e.target !== e.currentTargert){
-		var clickedItem = e.target.id;
-		var element = document.getElementById(clickedItem);
-  		element.classList.add("press");
-
-  		switch(element) {
-  			case Home:
-    			window.location='index.html';
-    		break;
-  			
-  			case Service:
-    			window.location='Service.html';
-    		break;
-
-    		case Register:
-    			window.location='Register.html';
-    		break;
-
-    		case Log_In:
-    			window.location='Log_iIn.html';
-    		break;
-
-    		case About_us:
-    			window.location='About_Us.html';
-    		break;
-  			
-		}
-	}
-
-	e.stopPropagation();
+function Home() 
+{
+	// window.parent.open("index.html");
+	// var myWindow =window.open("","","")
+	// myWindow.location.href="Service.html"
 }
 
+function Service()
+{
+	var myWindow =window.open("","","")
+	myWindow.location.href="Service.html"
+}
+
+function Register()
+{
+	Window.location.href="Register.html"
+}
+
+function Login()
+{
+	Window.location.href="#"
+}
+
+function AboutUs()
+{
+	var myWindow =window.open("","","")
+	myWindow.location.href="#"
+}
 
