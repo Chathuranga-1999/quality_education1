@@ -24,13 +24,7 @@
   <body>
     
     <!--Navigation bar-->
-    <script src="//code.jquery.com/jquery.min.js"></script>
-<script>
-$(function(){
-  $("#nav-placeholder").load("NavBar.html");
-});
-</script>
-<div id="nav-placeholder"></div>
+    <?php include('NavBar.php'); ?>
 
 
       <div class="wrapper">

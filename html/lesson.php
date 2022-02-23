@@ -239,6 +239,9 @@
             </ul>
           </div>
         </div>  
-     </div>      
+     </div>  
+     <!--footer-->
+    
+     <?php include('footer.html'); ?>    
   </body>
 </html>
