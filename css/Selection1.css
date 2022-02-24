@@ -11,6 +11,9 @@ header {
     min-height: 100vh;
     background: #EED88A;
 }
+a{
+	text-decoration:none;
+}
 
 .par {
     width: 80%;
