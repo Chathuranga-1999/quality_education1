@@ -43,9 +43,7 @@
         </div>
       </div>  
 
-    <div class="footer">
-        <img src="../img/footer_img.png">
-      </div>
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
